@@ -16,5 +16,6 @@ rvm:
   - 2.2
 
 script:
+  - bundle exec rake rubocop
   - bundle exec rake spec
   - bundle exec ohai

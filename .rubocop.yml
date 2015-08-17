@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - "pkg/**/*"
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - spec/**/*.rb
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/NumericLiterals:
+  Enabled: false
